@@ -8,7 +8,7 @@ class estate(models.Model):
     description = fields.Text()
     postcode = fields.Char()
     date_avaibility = fields.Date()
-    expected_price = fields.Float()
+    expected_price = fields.Float(required=True)
     selling_price = fields.Float()
     bedrooms = fields.Integer()
     living_area = fields.Integer()
