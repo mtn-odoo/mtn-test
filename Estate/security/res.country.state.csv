@@ -1,2 +1,2 @@
-id;country_id:id;name;code
-state_au_5;base.au;mtn;MTN
+id,country_id:id,name,code
+state_au_5,base.au,mtn,MTN
