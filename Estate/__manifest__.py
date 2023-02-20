@@ -10,6 +10,7 @@ test test
     'depends' : ['base_setup'],
     'data': [
         'views/estate.xml',
+        'security/state.xlsx'
     ],
     'demo': [
         'demo/account_demo.xml',
@@ -17,8 +18,4 @@ test test
     'installable': True,
     'application': True,
     'license': 'LGPL-3',
-""",
-    'depends': [],
-    'data': [
-        'security/state.xlsx'
-    ]}
+}
