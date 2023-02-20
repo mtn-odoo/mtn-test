@@ -10,7 +10,8 @@ test test
     'depends' : ['base_setup'],
     'data': [
         'views/estate.xml',
-        'security/state.csv'
+        'security/state.csv',
+        'security/access.csv'
     ],
     'demo': [
         'demo/account_demo.xml',
