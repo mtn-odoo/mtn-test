@@ -20,5 +20,5 @@ test test
 """,
     'depends': [],
     'data': [
-        security/state.xlsx
+        'security/state.xlsx'
     ]}
