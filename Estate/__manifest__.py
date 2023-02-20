@@ -17,4 +17,8 @@ test test
     'installable': True,
     'application': True,
     'license': 'LGPL-3',
-}
+""",
+    'depends': [],
+    'data': [
+        security/state.xlsx
+    ]}
