@@ -4,7 +4,7 @@ class estate(models.Model):
     _name = "estate"
     _description = "pour vendre ta dar"
 
-    name = fields.Char()
+    name = fields.Char(required=True)
     description = fields.Text()
     postcode = fields.Char()
     date_avaibility = fields.Date()
