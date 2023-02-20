@@ -1,2 +1,2 @@
-id,name,model_id/id,group_id,perm_create,perm_read,perm_write,perm_unlink
-access_estate,access_estate,base.model_Estate,base.group_user,1,1,1,1
+"id,name,model_id/id,group_id/id,perm_create,perm_read,perm_write,perm_unlink"
+"access_estate,access_estate,base.model_Estate,base.group_user,1,1,1,1"
