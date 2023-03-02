@@ -15,7 +15,7 @@ class estate(models.Model):
     facades = fields.Integer()
     garage = fields.Boolean()
     garden = fields.Boolean()
-    active = fields.Boolean()
+    active = fields.Boolean(default=False)
     garden_area = fields.Integer()
     garden_orientation = fields.Selection(
         string='Orientation',
@@ -23,6 +23,6 @@ class estate(models.Model):
     )
     state = fields.Selection(
         string='State',
-        selection=[('new','New'),('offer eeceived','Offer Received')]
+        selection=[('new','New'),('offer received','Offer Received')]
     )
     
