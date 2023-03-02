@@ -1,2 +1,7 @@
 <data>
+    <record id="estate_model_action" model="ir.actions.act_window">
+        <field name="name">estate action</field>
+        <field name="res_model">estate</field>
+        <field name="view_mode">tree,form</field>
+    </record>
 </data>
