@@ -15,9 +15,14 @@ class estate(models.Model):
     facades = fields.Integer()
     garage = fields.Boolean()
     garden = fields.Boolean()
+    active = fields.Boolean()
     garden_area = fields.Integer()
     garden_orientation = fields.Selection(
         string='Orientation',
         selection=[('nord','Nord'),('sud','Sud'),('est','Est'),('ouest','Ouest')]
+    )
+    state = fields.Selection(
+        string='State',
+        selection=[('new','New'),('offer eeceived','Offer Received')]
     )
     
