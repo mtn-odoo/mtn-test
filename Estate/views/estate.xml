@@ -12,16 +12,16 @@
 </menuitem>
     <record id="estate_model_treelist" model="ir.ui.view">
         <field name="name">estate list</field>
-        <field name="res_model">estate</field>
+        <field name="model">estate</field>
         <field name="arch" type="xml">
             <tree string="vue liste">
                 <field name="name"/>
-                <!-- <field name="postcode"/>
+                <field name="postcode"/>
                 <field name="bedrooms"/>
                 <field name="living_area"/>
                 <field name="expected_price"/>
                 <field name="selling_price"/>
-                <field name="date_avaibility"/> -->
+                <field name="date_avaibility"/>
             </tree>
         </field>
     </record>
