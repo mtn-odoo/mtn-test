@@ -10,4 +10,19 @@
         <menuitem id="estate_model_menu_action" action="estate_model_action"/>
     </menuitem>
 </menuitem>
+<record id="estate_model_action" model="ir.ui.view">
+        <field name="name">estate list</field>
+        <field name="res_model">estate</field>
+        <field name="arch" type="xml">
+            <tree string="Tests">
+                <field name="name"/>
+                <field name="postcode"/>
+                <field name="bedrooms"/>
+                <field name="living_area"/>
+                <field name="expected_price"/>
+                <field name="selling_price"/>
+                <field name="date_avaibility"/>
+            </tree>
+        </field>
+</record>
 </odoo>
