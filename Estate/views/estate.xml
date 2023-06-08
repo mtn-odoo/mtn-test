@@ -25,4 +25,27 @@
             </tree>
         </field>
     </record>
+      <record id="estate_model_treelist" model="ir.ui.view">
+        <field name="name">estate.form</field>
+        <field name="model">estate</field>
+        <field name="arch" type="xml">
+            <form string="Test">
+                <sheet>
+                     <group>
+                         <group>
+                         <field name="name"/>
+                         </group>
+                      <group>
+                         <field name="postcode"/>
+                     </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description"/>
+                        </page>
+                    </notebook>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
 </odoo>
