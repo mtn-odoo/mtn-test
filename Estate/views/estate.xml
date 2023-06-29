@@ -5,8 +5,16 @@
         <field name="res_model">estate</field>
         <field name="view_mode">tree,form</field>
     </record>
+    <record id="estate.property_model_action" model="ir.actions.act_window">
+        <field name="name">type property</field>
+        <field name="res_model">estate.property</field>
+        <field name="view_mode">tree,form</field>
+    </record>
     <menuitem id="test_menu_root" name="Dar">
-    <menuitem id="test_first_level_menu" name="Dar de riche">
+        <menuitem id="test_first_level_menu" name="Dar de riche">
+        <menuitem id="estate_model_menu_action" action="estate_model_action"/>
+         <menuitem id="test_first_level_menu" name="type de property">
+         <menuitem id="test_menu_root" name="Settings">
         <menuitem id="estate_model_menu_action" action="estate_model_action"/>
     </menuitem>
 </menuitem>
