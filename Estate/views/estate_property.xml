@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="estate_property_model_action" model="ir.actions.act_window">
+        <field name="name">type property</field>
+        <field name="res_model">estate_property</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+         <menuitem id="test_menu_root" name="Dar">
+    <menuitem id="test_first_level_menu" name="Settings">
+        <menuitem id="estate_property_model_menu_action" action="estate_property_model_action"/>
+    </menuitem>
+            <record id="estate_property_model_treelist" model="ir.ui.view">
+        <field name="name">estate_property list</field>
+        <field name="model">estate_property</field>
+        <field name="arch" type="xml">
+            <tree string="vue liste">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+      <record id="estate_property_model_form" model="ir.ui.view">
+        <field name="name">estate.property.form</field>
+        <field name="model">estate_property</field>
+        <field name="arch" type="xml">
+            <form string="Test">
+    </record>
+</odoo> 
