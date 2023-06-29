@@ -90,26 +90,4 @@
                     </group> -->
                 </search>
             </field>
-        </record> 
-    <record id="estate_property_model_action" model="ir.actions.act_window">
-        <field name="name">type property</field>
-        <field name="res_model">estate.property</field>
-        <field name="view_mode">tree,form</field>
-    </record>
-            <record id="estate_model_treelist" model="ir.ui.view">
-        <field name="name">estate.property list</field>
-        <field name="model">estate.property</field>
-        <field name="arch" type="xml">
-            <tree string="vue liste">
-                <field name="name"/>
-            </tree>
-        </field>
-    </record>
-      <record id="estate_model_form" model="ir.ui.view">
-        <field name="name">estate.property.form</field>
-        <field name="model">estate.property</field>
-        <field name="arch" type="xml">
-            <form string="Test">
-    </record>
-
 </odoo> 
