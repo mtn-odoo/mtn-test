@@ -9,6 +9,7 @@
     <menuitem id="test_first_level_menu" name="Settings">
         <menuitem id="estate_property_model_menu_action" action="estate_property_model_action"/>
     </menuitem>
+    </menuitem>
             <record id="estate_property_model_treelist" model="ir.ui.view">
         <field name="name">estate_property list</field>
         <field name="model">estate_property</field>
