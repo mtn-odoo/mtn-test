@@ -5,5 +5,6 @@ class estate(models.Model):
     _description = "type de bien"
 
     name = fields.Char(required=True, index=True)
+    description = fields.Text()
 
     
