@@ -17,6 +17,7 @@
                 <field name="name"/>
             </tree>
         </field>
+        </record>
       <record id="estate_property_model_form" model="ir.ui.view">
         <field name="name">estate.property.form</field>
         <field name="model">estate_property</field>
