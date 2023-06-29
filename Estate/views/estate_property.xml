@@ -6,7 +6,7 @@
         <field name="view_mode">tree,form</field>
     </record>
          <menuitem id="test_menu_root" name="Dar">
-    <menuitem id="test_first_level_menu" name="Settings">
+    <menuitem id="test_second_level_menu" name="Settings">
         <menuitem id="estate_property_model_menu_action" action="estate_property_model_action"/>
     </menuitem>
     </menuitem>
