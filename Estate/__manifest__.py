@@ -10,6 +10,7 @@ test test
     'depends' : ['base_setup'],
     'data': [
         'views/estate.xml',
+        'views/estate_property.xml',
         'security/res.country.state.csv',
         'security/ir.model.access.csv'
     ],
